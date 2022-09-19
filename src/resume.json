@@ -1,0 +1,79 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Dmitrii Naumov",
+    "label": "Developer",
+    "picture": "https://psv4.userapi.com/c237131/u111925211/docs/d26/1b1b553bd07c/photo.jpg?extra=_yUgWBV6GiCL9LcFtipms6W1Uygcesp0pEuyB6xoDN-E_qSM_dbSZUUPepViOnU87-5m6Iw1qxZ1WC1shzrt8M5M7sDafHar-EmPhTbqeK_2YMHSi39VU68Um9aUD4aBptQ_QfnhJlbOxnHkPcrAsw",
+    "email": "dimnau@gmail.com",
+    "github": "naumovdk",
+    "telegram": "naumovdk",
+    "phone": "+7 (981) 892 84 55",
+    "summary": ["Interested in concurrency, functional programming and programming languages theory.", "Looking for a job where I could apply and improve my knowledge of computer science."],
+    "location": {
+      "city": "Saint-Petersburg",
+      "countryCode": "Russia"
+    }
+  },
+  "work": [{
+    "company": "Jetbrains, Concurrent Computing Lab",
+    "position": "Researcher",
+    "website": "https://research.jetbrains.org/",
+    "startDate": "2021-07-01",
+    "endDate": "2022-03-01",
+    "summary": "Worked on concurrent data structure for dynamic SSSP (Single Source Shortest Paths) maintance problem",
+    "stack": ["Kotlin, lincheck, jmh"],
+    "highlights": [
+      "Designed and implemented an algorithm in Kotlin",
+      "Proved and tested its linearizability",
+      "Implemented other different data structures for this problem and benchmarked them against one another"
+    ]
+  },
+  {
+    "company": "Webim",
+    "position": "Backend developer",
+    "website": "http://webim.ru",
+    "startDate": "2019-08-10",
+    "endDate": "2019-10-10",
+    "summary": "Migrated Python 2 project to Python 3",
+    "stack": ["Python, Django"],
+    "highlights": [
+      "Found alternatives to deprecated libraries",
+      "Implemented integration through third-party services (OAuth, SMS)"
+    ]
+  }],
+  "education": [{
+    "institution": "ITMO",
+    "area": "Bachelor",
+    "studyType": "Computer science",
+    "startDate": "2017-09-01",
+    "endDate": "2022-07-01"
+  }],
+  "skills": [{
+    "name": "Python",
+    "keywords": ["numpy", "pandas", "sklearn", "xgboost", "PyTorch", "Django"],
+    "text": "Applied in machine learning projects such as reinforcement learning, recommender systems and a bit of backend."
+  },
+  {
+    "name": "Java",
+    "keywords": ["Kotlin", "Spring"],
+    "text": "Used in projects e. g. parser generator, classical logic statement prover."
+  },
+  {
+    "name": "C++",
+    "keywords": ["C++17"],
+    "text": "University courses, competetive programming."
+  }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Upper-Intermediate (B2)"
+  },{
+    "language": "Russian",
+    "fluency": "Native"
+  }],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
